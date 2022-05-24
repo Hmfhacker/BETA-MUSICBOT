@@ -2,6 +2,8 @@
 
 # BETA-MUSICBOT
 A Telegram bot which plays music and videos in vc
+which supports playlist from Spotify, Apple music, Resso,etc..
+Give a star abd deploy Now
 
 <p align="center">
 
