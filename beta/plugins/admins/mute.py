@@ -3,10 +3,10 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS
 from strings import get_command
-from beta import app
-from beta.core.call import Yukki
-from beta.utils.database import is_muted, mute_on
-from beta.utils.decorators import AdminRightsCheck
+from Beta import app
+from Beta.core.call import Yukki
+from Beta.utils.database import is_muted, mute_on
+from Beta.utils.decorators import AdminRightsCheck
 
 # Commands
 MUTE_COMMAND = get_command("MUTE_COMMAND")
