@@ -1,6 +1,12 @@
 ## BETA-MUSICBOT
 A Telegram bot which plays music and videos in vc
 
+<p align="center">
+
+  <a href="https://github.com/Jeolpaul"><img src="http://readme-typing-svg.herokuapp.com?color=00FF00&center=true&vCenter=true&multiline=false&lines=HI!+I+AM+A+MUSIC+BOT+WITH+MANY+FEATURES😀;FORK+ME+AND+DEPLOY+NOW😼;SUPPORT+US+BY+GIVING+A+STAR⭐;Developed+By+JEOL;THANKS+TO+TEAMYUKKI" alt="UwU">
+
+</p>
+
 [![BETA-BOT](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Jeolpaul/BETA-MUSICBOT)
 
 
