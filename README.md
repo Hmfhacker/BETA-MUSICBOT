@@ -1,5 +1,10 @@
 ## BETA-MUSICBOT
 A Telegram bot which plays music and videos in vc
+
+[![BETA-BOT](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Jeolpaul/BETA-MUSICBOT)
+
+
+
 # Beta Music Bot Configs VARS
 
 Config vars are basically the variables which configure or modify bot to function, which are the basic necessities of plugins or code to work. You have to set the proper mandatory vars to make it functional and to start the basic feature of bot.
