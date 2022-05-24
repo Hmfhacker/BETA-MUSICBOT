@@ -1,6 +1,6 @@
 from config import LOG, LOG_GROUP_ID
-from beta import app
-from beta.utils.database import is_on_off
+from Beta import app
+from Beta.utils.database import is_on_off
 
 
 async def play_logs(message, streamtype):
@@ -10,7 +10,7 @@ async def play_logs(message, streamtype):
         else:
             chatusername = "Private Group"
         logger_text = f"""
-**YUKKI PLAY LOG**
+**BETA PLAY LOG**
 
 **Chat:** {message.chat.title} [`{message.chat.id}`]
 **User:** {message.from_user.mention}
