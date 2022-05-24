@@ -3,12 +3,12 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS, adminlist
 from strings import get_command
-from beta import app
-from beta.utils.database import (delete_authuser, get_authuser,
+from Beta import app
+from Beta.utils.database import (delete_authuser, get_authuser,
                                        get_authuser_names,
                                        save_authuser)
-from beta.utils.decorators import AdminActual, language
-from beta.utils.formatters import int_to_alpha
+from Beta.utils.decorators import AdminActual, language
+from Beta.utils.formatters import int_to_alpha
 
 # Command
 AUTH_COMMAND = get_command("AUTH_COMMAND")
