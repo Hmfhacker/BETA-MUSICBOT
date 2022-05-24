@@ -5,7 +5,7 @@ import heroku3
 from pyrogram import filters
 
 import config
-from beta.core.mongo import pymongodb
+from Beta.core.mongo import pymongodb
 
 from .logging import LOGGER
 
