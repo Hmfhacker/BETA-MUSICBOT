@@ -1,4 +1,4 @@
-from Beta.core.bot import YukkiBot
+from beta.core.bot import YukkiBot
 from Beta.core.dir import dirr
 from Beta.core.git import git
 from Beta.core.userbot import Userbot
