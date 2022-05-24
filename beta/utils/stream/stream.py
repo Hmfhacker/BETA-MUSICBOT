@@ -5,20 +5,20 @@ from typing import Union
 from pyrogram.types import InlineKeyboardMarkup
 
 import config
-from beta import Carbon, YouTube, app
-from beta.core.call import Yukki
-from beta.misc import db
-from beta.utils.database import (add_active_chat,
+from Beta import Carbon, YouTube, app
+from Beta.core.call import Yukki
+from Beta.misc import db
+from Beta.utils.database import (add_active_chat,
                                        add_active_video_chat,
                                        is_active_chat,
                                        is_video_allowed, music_on)
-from beta.utils.exceptions import AssistantErr
+from Beta.utils.exceptions import AssistantErr
 from beta.utils.inline.play import (stream_markup,
                                           telegram_markup)
-from beta.utils.inline.playlist import close_markup
-from beta.utils.pastebin import Yukkibin
-from beta.utils.stream.queue import put_queue, put_queue_index
-from beta.utils.thumbnails import gen_thumb
+from Beta.utils.inline.playlist import close_markup
+from Beta.utils.pastebin import Yukkibin
+from Beta.utils.stream.queue import put_queue, put_queue_index
+from Beta.utils.thumbnails import gen_thumb
 
 
 async def stream(
