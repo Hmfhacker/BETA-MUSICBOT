@@ -1,5 +1,5 @@
-from beta import app
-from beta.utils.database import get_cmode
+from Beta import app
+from Beta.utils.database import get_cmode
 
 
 async def get_channeplayCB(_, command, CallbackQuery):
