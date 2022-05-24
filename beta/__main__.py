@@ -7,10 +7,10 @@ from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
 from config import BANNED_USERS
-from beta import LOGGER, app, userbot
-from beta.core.call import Yukki
-from beta.plugins import ALL_MODULES
-from beta.utils.database import get_banned_users, get_gbanned
+from Beta import LOGGER, app, userbot
+from Beta.core.call import Yukki
+from Beta.plugins import ALL_MODULES
+from Beta.utils.database import get_banned_users, get_gbanned
 
 loop = asyncio.get_event_loop()
 
@@ -69,4 +69,4 @@ async def init():
 
 if __name__ == "__main__":
     loop.run_until_complete(init())
-    LOGGER("YukkiMusic").info("Stopping Yukki Music Bot! GoodBye")
+    LOGGER("YukkiMusic").info("Stopping Beta Music Bot! GoodBye")
