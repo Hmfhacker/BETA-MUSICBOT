@@ -3,7 +3,7 @@ from os import path
 
 from yt_dlp import YoutubeDL
 
-from beta.utils.formatters import seconds_to_min
+from Beta.utils.formatters import seconds_to_min
 
 
 class SoundAPI:
