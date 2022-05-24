@@ -1,8 +1,8 @@
-from beta.core.bot import YukkiBot
-from beta.core.dir import dirr
-from beta.core.git import git
-from beta.core.userbot import Userbot
-from beta.misc import dbb, heroku, sudo
+from Beta.core.bot import YukkiBot
+from Beta.core.dir import dirr
+from Beta.core.git import git
+from Beta.core.userbot import Userbot
+from Beta.misc import dbb, heroku, sudo
 
 from .logging import LOGGER
 
