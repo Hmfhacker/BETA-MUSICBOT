@@ -1,7 +1,7 @@
 import random
 
-from beta import userbot
-from beta.core.mongo import mongodb
+from Beta import userbot
+from Beta.core.mongo import mongodb
 
 db = mongodb.assistants
 
