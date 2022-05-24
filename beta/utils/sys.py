@@ -2,7 +2,7 @@ import time
 
 import psutil
 
-from beta.misc import _boot_
+from Beta.misc import _boot_
 
 from .formatters import get_readable_time
 
