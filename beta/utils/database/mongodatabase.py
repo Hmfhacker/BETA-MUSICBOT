@@ -1,6 +1,6 @@
 from typing import Dict, List, Union
 
-from beta.core.mongo import mongodb
+from Beta.core.mongo import mongodb
 
 queriesdb = mongodb.queries
 userdb = mongodb.userstats
