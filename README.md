@@ -1,4 +1,6 @@
-## BETA-MUSICBOT
+<img src="https://telegra.ph/file/5803e5bc6ff1d65387925.jpg" align="right" width="200" height="200"/>
+
+# BETA-MUSICBOT
 A Telegram bot which plays music and videos in vc
 
 <p align="center">
