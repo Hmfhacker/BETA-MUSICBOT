@@ -18,7 +18,7 @@ from ..logging import LOGGER
 
 class YukkiBot(Client):
     def __init__(self):
-        LOGGER(__name__).info(f"Starting Bot")
+        LOGGER(__name__).info(f"Starting Beta Bot")
         super().__init__(
             "YukkiMusicBot",
             api_id=config.API_ID,
@@ -33,7 +33,7 @@ class YukkiBot(Client):
         self.id = get_me.id
         try:
             await self.send_message(
-                config.LOG_GROUP_ID, "Bot Started"
+                config.LOG_GROUP_ID, "Beta Bot Started"
             )
         except:
             LOGGER(__name__).error(
