@@ -11,7 +11,7 @@ Give a star abd deploy Now
 
 </p>
 
-[![BETA-BOT](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Jeolpaul/BETA-MUSICBOT)
+[![BETA-BOT](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Hmfhacker/BETA-MUSICBOT)
 
 
 
